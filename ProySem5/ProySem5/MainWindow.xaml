@@ -39,8 +39,8 @@
             <ComboBoxItem Content="Colombian Peso Cop" />
             <ComboBoxItem Content="Bolivars BOB" />
         </ComboBox>
-        <TextBox HorizontalAlignment="Left" Name="textBox1" Height="44" Margin="57,246,0,0" TextWrapping="Wrap" Text="Enter a quantity" VerticalAlignment="Top" Width="176" FontSize="22" Grid.Row="1"/>
-        <TextBox HorizontalAlignment="Left" Name="textBox2" Height="44" Margin="400,246,0,0" TextWrapping="Wrap" Text="Enter a quantity" VerticalAlignment="Top" Width="176" FontSize="22" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Name="textBox1" Height="44" Margin="57,246,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="176" FontSize="22" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Name="textBox2" Height="44" Margin="400,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" FontSize="22" Grid.Row="1"/>
         <Label Content="Convertidor de monedas" HorizontalAlignment="Left" FontSize="34" Margin="185,27,0,0" VerticalAlignment="Top" Width="417" Height="70" Grid.RowSpan="2" Background="Bisque" Foreground="DarkBlue" />
         <Label Content="Change 1" FontSize="22
                " HorizontalAlignment="Left" Margin="98,83,0,0" VerticalAlignment="Top" Width="106" Grid.Row="1"/>
