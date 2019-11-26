@@ -32,7 +32,7 @@ namespace ProySem5
             
         }
 
-        private void btnHistory_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             ProySem5.Historial form = new ProySem5.Historial();
             form.ShowDialog();

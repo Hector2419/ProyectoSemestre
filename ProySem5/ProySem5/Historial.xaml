@@ -5,10 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProySem5"
         mc:Ignorable="d"
-        Title="Historial" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="108,321,0,0" VerticalAlignment="Top" Width="76"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="390,321,0,0" VerticalAlignment="Top" Width="75"/>
+        Title="Historial" Height="324.59" Width="492.623">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="7,1,-27,40">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.011"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="140,232,0,0" VerticalAlignment="Top" Width="76"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="264,232,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.461,-2.646"/>
+        <DataGrid x:Name="RegistrosList" HorizontalAlignment="Left" Height="173" Margin="41,27,0,0" VerticalAlignment="Top" Width="406" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
 
     </Grid>
 </Window>

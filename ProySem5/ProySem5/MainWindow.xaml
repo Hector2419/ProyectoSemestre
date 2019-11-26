@@ -56,7 +56,7 @@
             </Label.RenderTransform>
         </Label>
         <TextBox HorizontalAlignment="Left" Name="textBox3" Height="44" Margin="653,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" FontSize="22" Grid.Row="1"/>
-        <Button Content="History" HorizontalAlignment="Left" Margin="670,246,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="58" Click="btnHistory_Click"/>
+        <Button Content="History" HorizontalAlignment="Left" Height="54" Margin="653,223,0,0" Grid.Row="1" VerticalAlignment="Top" Width="104" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
