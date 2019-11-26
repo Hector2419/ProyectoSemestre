@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ProySem5.Clases;
+
 
 namespace ProySem5
 {
@@ -20,11 +22,20 @@ namespace ProySem5
     /// </summary>
     public partial class MainWindow : Window
     {
+      
+
         double n;
         string op, coin, result;
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void btnHistory_Click(object sender, RoutedEventArgs e)
+        {
+            ProySem5.Historial form = new ProySem5.Historial();
+            form.ShowDialog();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -1670,6 +1681,8 @@ namespace ProySem5
                     textBox3.Text = "1 ---> 1";
                 }
             }
+            //Agregar//
+
         }
     }
 }
